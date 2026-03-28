@@ -17,7 +17,7 @@ fn prompt_string(prompt: &str) -> String{
 
 fn main(){
 
-  let  resposta =  prompt_string("Preciso que informe sua idade: ");
+  let  resposta =  prompt_string("Your name: ");
   println!("{}", resposta);
 
 
