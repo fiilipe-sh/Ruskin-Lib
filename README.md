@@ -1,4 +1,6 @@
 ![banner](https://github.com/user-attachments/assets/a2010bd4-613f-4d16-b03e-c73ff86dbac0)<p align="center">
+[![Documentação](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-CE422B?style=for-the-badge&logo=rust&logoColor=white)](https://fiilipe-sh.github.io/Ruskin-Lib/)
+
 </p>
 
 <br/>
@@ -12,6 +14,7 @@
 <br/>
 
 **ruskin** é uma biblioteca Rust para leitura de input no terminal — simples, sem dependências, com retry automático e validação embutida.
+
 
 ---
 
