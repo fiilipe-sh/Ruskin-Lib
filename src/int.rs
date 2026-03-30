@@ -23,16 +23,3 @@ fn prompt_int32(prompt: i32) -> i32{
 
     return input_user;
 }
-
-
-
-
-fn main(){
-    let number = prompt_int32("Digite sua idade: ");
-
-    println!("{}",number);
-
-
-
-
-}
