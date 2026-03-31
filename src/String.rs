@@ -1,7 +1,6 @@
 use std::io::{self, Write};
 
 
-
 fn prompt_string(prompt: &str) -> String{
 
     print!("{} ",prompt);
