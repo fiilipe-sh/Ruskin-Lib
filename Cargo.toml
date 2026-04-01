@@ -1,6 +1,8 @@
 [package]
-name = "script-rust"
+name = "ruskin"
 version = "0.1.0"
 edition = "2024"
-
+description = "Inputs no terminal do jeito que deveriam ser em Rust."
+license = "MIT"
+repository = "https://github.com/fiilipe-sh/Ruskin-Lib"
 [dependencies]
