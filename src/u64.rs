@@ -17,7 +17,7 @@ fn prompt_u64(prompt: &str) -> u64{
    match input_user.trim().parse::<u64>(){
       Ok(n) => return n,
       Err(_) => {
-           println!("{}{} is not a valid number! Try again.{}",RED,input_user.trim(),RESET);
+           println!(" {}->{} {} {}is not a valid number! Try again.{}",RED,RESET,input_user.trim(),RED,RESET));
      }
     }
   };
