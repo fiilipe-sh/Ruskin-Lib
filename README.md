@@ -87,14 +87,7 @@ let x: i32 = prompt_number("Digite um i32:");
 
 **validação customizada**
 ```rust
-let cpf = prompt_validated(
-    "CPF (somente números):",
-    |s| {
-        let digits: String = s.chars().filter(|c| c.is_ascii_digit()).collect();
-        if digits.len() == 11 { Some(digits) } else { None }
-    },
-    "CPF deve ter 11 dígitos.",
-);
+let cpf = prompt_validated("Digite seu cpf:",min,max,visible);
 ```
 
 **confirmação antes de ação destrutiva**
